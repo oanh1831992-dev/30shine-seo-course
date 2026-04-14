@@ -32,7 +32,7 @@ Và khi họ hỏi **ChatGPT, Gemini**: *"Salon nào tốt nhất?"* → 30Shine
 
 Bạn chỉ cần **trình duyệt web**. Không cần cài đặt gì.
 
-1. **Mở Antigravity:** PO sẽ gửi link truy cập cho bạn
+1. **Mở Antigravity:** Vào https://antigravity.google/ → đăng nhập
 2. **Mở Gemini:** Vào https://gemini.google.com → đăng nhập Google Account
 3. **Đọc khoá học này** tại link GitHub bạn đang đọc
 
