@@ -28,15 +28,12 @@ Và khi họ hỏi **ChatGPT, Gemini**: *"Salon nào tốt nhất?"* → 30Shine
 
 ---
 
-## Bước 0: Chuẩn bị (5 phút)
+## Bước 0: Bắt đầu (2 phút)
 
-Bạn chỉ cần **trình duyệt web**. Không cần cài đặt gì.
-
-1. **Mở Antigravity:** Vào https://antigravity.google/ → đăng nhập
-2. **Mở Gemini:** Vào https://gemini.google.com → đăng nhập Google Account
-3. **Đọc khoá học này** tại link GitHub bạn đang đọc
-
-Xong. Bắt đầu làm bài tập.
+1. **Mở Antigravity** → trỏ vào folder khoá học này
+2. **Gõ:** `Bạn biết gì về 30Shine và khoá học SEO này?`
+3. Antigravity trả lời đúng (nhắc 30Shine, mục tiêu +50%) → **sẵn sàng.**
+4. **Mở thêm Gemini:** https://gemini.google.com → dùng để kiểm chứng + chấm bài
 
 ---
 
