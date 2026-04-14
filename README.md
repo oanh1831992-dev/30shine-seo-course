@@ -28,38 +28,15 @@ Và khi họ hỏi **ChatGPT, Gemini**: *"Salon nào tốt nhất?"* → 30Shine
 
 ---
 
-## Bước 0: Cài đặt (15 phút — làm 1 lần duy nhất)
+## Bước 0: Chuẩn bị (5 phút)
 
-### Bước 0.1 — Cài Antigravity
+Bạn chỉ cần **trình duyệt web**. Không cần cài đặt gì.
 
-1. Mở **Terminal** (Mac: tìm "Terminal" trong Spotlight)
-2. Chạy:
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-3. Chưa có npm? Tải Node.js trước tại https://nodejs.org → chọn bản LTS → cài → quay lại bước 2
+1. **Mở Antigravity:** PO sẽ gửi link truy cập cho bạn
+2. **Mở Gemini:** Vào https://gemini.google.com → đăng nhập Google Account
+3. **Đọc khoá học này** tại link GitHub bạn đang đọc
 
-### Bước 0.2 — Tải khoá học + khởi động
-
-```bash
-git clone https://github.com/oanh1831992-dev/30shine-seo-course.git
-cd 30shine-seo-course
-claude
-```
-
-Đăng nhập theo hướng dẫn trên màn hình. Xong là Antigravity đã sẵn sàng — nó tự đọc khoá học, tự hiểu về 30Shine, tự biết cách viết SEO và chấm điểm.
-
-**Kiểm tra nhanh — gõ:**
-```
-Bạn biết gì về 30Shine và khoá học SEO này?
-```
-Nếu Antigravity trả lời đúng (nhắc 30Shine, 150 salon, mục tiêu +50%) → **sẵn sàng.**
-
-### Bước 0.3 — Mở Gemini
-
-1. Vào **https://gemini.google.com**
-2. Đăng nhập bằng Google Account
-3. Lưu bookmark — bạn sẽ dùng mỗi ngày để kiểm chứng và chấm bài
+Xong. Bắt đầu làm bài tập.
 
 ---
 
