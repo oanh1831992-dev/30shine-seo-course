@@ -87,18 +87,20 @@ Nếu không → kiểm tra lại bước 0.3.
 
 > Mỗi bài tập bạn **gõ trực tiếp trong Antigravity**. Nó sẽ hướng dẫn bạn từng bước.
 
-| Ngày | Bài | Tên bài tập | Cách làm trong Antigravity |
-|------|-----|-------------|---------------------------|
+| Ngày | Bài | Tên bài tập | Cách làm |
+|------|-----|-------------|----------|
+| **1** | 0 | Technical SEO Audit | Gõ: `/technical-seo` + tự check PageSpeed + Google Business Profile |
 | **1** | 1 | Audit Google Search | Gõ: `/seo-audit` |
-| **1** | 2 | Audit AI Search | Gõ: *"Hỏi 10 câu về salon tóc nam và kiểm tra 30Shine có được nhắc không"* |
+| **1** | 2 | Audit AI Search | **Tự hỏi trên ChatGPT + Gemini + Perplexity** (browser), screenshot, rồi paste vào Antigravity phân tích |
 | **1** | 3 | Phân tích đối thủ | Gõ: *"Phân tích SEO của KingKong Barber và 4RAU so với 30Shine"* |
-| **1** | 4 | Chấm bài ngày 1 | Gõ: `/seo-grader` rồi paste kết quả 3 bài trên |
+| **1** | 4 | Chấm bài ngày 1 | Gõ: `/seo-grader` rồi paste kết quả 4 bài trên |
 | **2** | 5 | Keyword cluster | Gõ: *"Tạo keyword cluster cho 'nhuộm phủ bạc' với 20 long-tail keywords"* |
-| **2** | 6 | Viết blog SEO | Gõ: `/seo-writer` → chọn keyword → viết bài |
-| **2** | 7 | Tạo FAQ Schema | Gõ: *"Tạo FAQ Schema JSON-LD từ bài blog vừa viết"* |
-| **2** | 8 | Chấm bài ngày 2 | Gõ: `/seo-grader` rồi paste bài blog + FAQ schema |
-| **3** | 9 | Viết local landing page | Gõ: `/seo-writer` → chọn "Landing page local" → Hà Nội |
-| **3** | 10 | Viết counter-content | Gõ: `/seo-writer` → chọn "Counter-content" → keyword "30shine review" |
+| **2** | 6 | Viết blog SEO + chuẩn bị ảnh | Gõ: `/seo-writer` → viết bài → **chụp/xin ảnh thật tại salon** |
+| **2** | 7 | Tạo Structured Data | Gõ: *"Tạo FAQ + Article Schema JSON-LD từ bài blog vừa viết"* |
+| **2** | 8 | Chấm bài ngày 2 | Gõ: `/seo-grader` rồi paste bài blog + schema |
+| **3** | 9 | Local landing page + ảnh chi nhánh | Gõ: `/seo-writer` → "Landing page local" → **kèm ảnh mặt tiền salon** |
+| **3** | 10 | Counter-content + ảnh before/after | Gõ: `/seo-writer` → "Counter-content" → **kèm ảnh kết quả thật** |
+| **Sau đăng** | 11+ | Tái research chấm điểm thật | Chờ 7 ngày → audit lại keyword → rank chưa? AI nhắc chưa? |
 
 **Chi tiết từng bài tập:** [Xem tại đây →](bai-tap/README.md)
 
@@ -121,7 +123,7 @@ Mục tiêu:                   67,473/tháng (+50%)
 
 Khi đạt 67,473 sessions/tháng và duy trì 2 tháng liên tiếp → khoá học kết thúc.
 
-Chưa đạt → tiếp tục viết content. Mỗi bài content tốt = thêm 500-2,000 sessions/tháng.
+Chưa đạt → tiếp tục viết + đăng + tái research. SEO là cuộc chơi 3-6 tháng, không phải 2 tuần.
 
 ---
 
@@ -131,12 +133,14 @@ Chưa đạt → tiếp tục viết content. Mỗi bài content tốt = thêm 5
 
 | Bạn muốn | Gõ trong Antigravity |
 |-----------|---------------------|
-| Audit SEO | `/seo-audit` |
-| Viết content | `/seo-writer` |
-| Chấm điểm bài | `/seo-grader` |
+| Kiểm tra sức khoẻ website | `/technical-seo` |
+| Audit keyword trên Google | `/seo-audit` |
+| Viết content SEO + GEO | `/seo-writer` |
+| Chấm điểm bài tập | `/seo-grader` |
 | Research keyword | *"Phân tích keyword [từ khoá] cho 30Shine"* |
 | Hỏi bất kỳ | *"Giải thích [khái niệm SEO] đơn giản cho người mới"* |
 | Kiểm tra đối thủ | *"Ai đang rank #1 cho keyword [từ khoá]?"* |
+| Tạo structured data | *"Tạo LocalBusiness Schema cho chi nhánh 30Shine tại [địa chỉ]"* |
 
 **Mẹo quan trọng:**
 1. **Càng cụ thể càng tốt.** "Viết blog SEO về nhuộm phủ bạc cho 30Shine, target nam 30-40 Hà Nội" tốt hơn "Viết blog"

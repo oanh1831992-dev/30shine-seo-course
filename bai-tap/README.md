@@ -4,7 +4,36 @@
 
 ---
 
-## Ngày 1: Hiểu hiện trạng (4 bài — khoảng 4 tiếng)
+## Ngày 1: Hiểu hiện trạng (5 bài — khoảng 5 tiếng)
+
+---
+
+### Bài 0: Technical SEO Audit (gửi cho Dev Team)
+
+> Trước khi viết content mới, cần biết "ngôi nhà" (website) có khoẻ không. Nếu website chậm, thiếu meta tags, sitemap lỗi — content hay mấy cũng khó rank.
+
+**Mở Antigravity, gõ:**
+```
+/technical-seo
+```
+
+Antigravity sẽ kiểm tra các trang dịch vụ chính của 30shine.com và báo lại:
+- Trang nào thiếu Title Tag / Meta Description / H1?
+- Sitemap có đầy đủ không?
+- Robots.txt có chặn gì không?
+
+**Bạn cần tự làm thêm (Antigravity không kiểm tra được):**
+1. Mở https://pagespeed.web.dev/ → nhập `30shine.com` → ghi lại điểm
+2. Search Google `30shine [địa chỉ chi nhánh gần bạn]` → kiểm tra Google Business Profile
+
+**Lưu kết quả:**
+```
+Lưu vào file bai-tap/00-technical-audit.md
+```
+
+**Gửi phần "Đề xuất cho Dev Team" cho dev ngay.** Không cần chờ — technical issues càng sửa sớm, content mới càng rank nhanh.
+
+**Thời gian:** ~45 phút
 
 ---
 
@@ -31,10 +60,14 @@ Lưu kết quả audit vào file bai-tap/01-google-audit.md
 
 ### Bài 2: Audit AI Search
 
-**Gõ trong Antigravity:**
-```
-Đóng vai người dùng bình thường. Trả lời 10 câu hỏi sau và đánh giá 
-30Shine có được nhắc đến không, nói gì, thông tin đúng hay sai:
+> **QUAN TRỌNG:** Bạn phải tự hỏi AI trên browser, KHÔNG nhờ Antigravity trả lời thay. Mỗi AI engine cho kết quả khác nhau — cần kiểm tra thật.
+
+**Bước 1 — Mở 3 tab trên browser:**
+- Tab 1: https://chatgpt.com (ChatGPT)
+- Tab 2: https://gemini.google.com (Gemini)
+- Tab 3: https://perplexity.ai (Perplexity — nếu có)
+
+**Bước 2 — Hỏi 10 câu sau trên MỖI AI. Screenshot TỪNG câu trả lời:**
 
 1. Salon cắt tóc nam nào tốt nhất ở Hà Nội?
 2. Nên nhuộm phủ bạc ở đâu tốt TP.HCM?
@@ -46,21 +79,27 @@ Lưu kết quả audit vào file bai-tap/01-google-audit.md
 8. Hệ thống salon tóc nam lớn nhất Việt Nam?
 9. Các kiểu tóc nam đẹp 2026 làm ở đâu?
 10. Lấy ráy tai ASMR ở đâu tốt?
+
+**Bước 3 — Ghi kết quả vào bảng:**
+
+| # | Câu hỏi | ChatGPT nhắc 30Shine? | Gemini nhắc? | Perplexity nhắc? | Nói gì? (tóm tắt) |
+|---|---------|----------------------|-------------|-----------------|-------------------|
+| 1 | ... | Có/Không | Có/Không | Có/Không | ... |
+
+**Bước 4 — Paste bảng kết quả vào Antigravity để phân tích:**
+```
+Đây là kết quả audit AI Search thật — tôi đã tự hỏi trên ChatGPT, Gemini, Perplexity.
+Phân tích: tại sao AI nhắc/không nhắc 30Shine? 30Shine cần làm gì để được AI recommend?
+[Paste bảng kết quả]
 ```
 
-**Sau đó mở Gemini (gemini.google.com), hỏi 5 câu đầu, so sánh:**
-```
-Copy câu trả lời của Gemini, quay lại Antigravity và nói:
-"So sánh câu trả lời của tôi từ Gemini với câu trả lời của bạn. 
-Chỗ nào giống nhau = insight mạnh. Chỗ nào khác = cần nghiên cứu thêm."
-```
-
-**Lưu kết quả:**
+**Lưu kết quả (bao gồm cả screenshots):**
 ```
 Lưu vào file bai-tap/02-ai-audit.md
+Lưu screenshots vào folder bai-tap/images/02-ai-screenshots/
 ```
 
-**Thời gian:** ~45 phút
+**Thời gian:** ~1 tiếng
 
 ---
 
