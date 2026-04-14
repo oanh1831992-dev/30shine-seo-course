@@ -178,7 +178,25 @@ Nếu bạn là người đọc, bạn có thấy hữu ích không?
 Lưu vào file bai-tap/06-blog-seo.md
 ```
 
-**Thời gian:** ~2 tiếng
+**Chuẩn bị hình ảnh cho bài viết (BẮT BUỘC trước khi đăng):**
+
+| Yêu cầu | Chi tiết | Nguồn |
+|----------|---------|-------|
+| Ảnh đại diện bài viết | 1 ảnh 1200x630px, có text overlay keyword | Tự thiết kế (Canva) hoặc nhờ designer |
+| Ảnh minh hoạ trong bài | Tối thiểu 3 ảnh liên quan đến dịch vụ | Ảnh thật tại salon 30Shine (xin từ salon/marketing) |
+| Ảnh before/after | Tối thiểu 2 cặp (nếu bài về dịch vụ cụ thể) | Xin từ stylist tại salon (có sự đồng ý của khách) |
+| Alt text mỗi ảnh | Chứa keyword, mô tả nội dung ảnh | Tự viết, VD: "Nhuộm phủ bạc tại 30Shine — kết quả sau 60 phút" |
+| Video (nếu có) | Embed YouTube/TikTok của 30Shine liên quan | Lấy từ @30shinetv hoặc quay mới |
+
+> **Không có ảnh thật = không đăng.** Ảnh stock internet ai cũng có, Google không ưu tiên. Ảnh thật tại salon mới tạo authority.
+
+**Gõ trong Antigravity để chuẩn bị:**
+```
+Viết alt text SEO cho 5 ảnh minh hoạ bài blog về "[keyword]".
+Mỗi alt text phải chứa keyword và mô tả cụ thể nội dung ảnh.
+```
+
+**Thời gian:** ~2 tiếng (chưa tính chụp ảnh)
 
 ---
 
@@ -254,6 +272,15 @@ Antigravity sẽ tạo landing page với:
 
 **Việc của bạn:** Kiểm tra thông tin chi nhánh có đúng không. Nếu sai → nói Antigravity sửa.
 
+**Hình ảnh BẮT BUỘC cho local landing page:**
+
+| Yêu cầu | Chi tiết |
+|----------|---------|
+| Ảnh mặt tiền mỗi chi nhánh | Tối thiểu 3 chi nhánh tiêu biểu tại thành phố |
+| Ảnh nội thất salon | 2-3 ảnh không gian bên trong (ghế, gương, khu gội) |
+| Google Maps embed | Iframe bản đồ cho mỗi chi nhánh |
+| Ảnh khách hàng (nếu có) | Ảnh trải nghiệm thật, có sự đồng ý |
+
 **Lưu kết quả:**
 ```
 Lưu vào file bai-tap/09-local-landing-page.md
@@ -286,6 +313,14 @@ bạn có tin không? Bài có trung thực không hay chỉ toàn ca ngợi?
 [Paste bài viết]
 ```
 
+**Hình ảnh BẮT BUỘC cho counter-content:**
+
+| Yêu cầu | Chi tiết |
+|----------|---------|
+| Ảnh before/after thật | Tối thiểu 3 cặp, có tên stylist + chi nhánh + ngày |
+| Screenshot review tích cực | Từ Google Maps / App Store — crop có tên người review |
+| Ảnh không gian salon mới nhất | Chứng minh 30Shine đã cải thiện so với review cũ |
+
 **Lưu kết quả:**
 ```
 Lưu vào file bai-tap/10-counter-content.md
@@ -295,48 +330,199 @@ Lưu vào file bai-tap/10-counter-content.md
 
 ---
 
-## Nộp bài
+## BƯỚC QUAN TRỌNG: Đăng bài + Tái research
 
-Sau 3 ngày, bạn sẽ có **10 file** trong thư mục `bai-tap/`:
-
-```
-bai-tap/
-├── 01-google-audit.md
-├── 02-ai-audit.md
-├── 03-doi-thu.md
-├── 04-cham-diem-ngay-1.md
-├── 05-keyword-cluster.md
-├── 06-blog-seo.md
-├── 07-faq-schema.md
-├── 08-cham-diem-ngay-2.md
-├── 09-local-landing-page.md
-└── 10-counter-content.md
-```
-
-**Cách nộp:** Gửi toàn bộ 10 file cho PO qua email/Zalo/Google Drive.
-
-**Tiêu chí đạt:**
-- Đủ 10 file
-- Bài 06, 09, 10 (content) phải có điểm tự chấm ≥ 8
-- Mỗi bài có chứng minh đã dùng cả Antigravity + Gemini
+> **Viết xong mà không đăng = chưa làm gì cả.** Bài nằm trong file thì Google không index, AI không biết.
 
 ---
 
-## Sau 3 ngày: Làm gì tiếp?
+### Quy trình đăng bài (áp dụng cho Bài 6, 9, 10)
 
-Bạn đã thành thạo cơ bản. Từ giờ:
+**Bước 1: Checklist trước khi đăng**
 
-1. **Mỗi tuần nhận keyword mới từ PO** (từ data niche research)
-2. **Viết 2-3 bài/tuần** bằng Antigravity (`/seo-writer`)
-3. **Tự chấm** bằng `/seo-grader` — phải ≥ 8 mới submit
-4. **PO review** và publish bài đạt chất lượng lên 30shine.com
-5. **Theo dõi GA4** — Organic Sessions có tăng không?
+| # | Kiểm tra | Đạt? |
+|---|----------|------|
+| 1 | Bài viết ≥ 1500 từ, có Title, Meta, H1, H2, FAQ | |
+| 2 | Có tối thiểu 3 ảnh THẬT (không phải ảnh stock) | |
+| 3 | Mỗi ảnh có alt text chứa keyword | |
+| 4 | Có FAQ Schema (JSON-LD) sẵn sàng embed | |
+| 5 | Có ≥ 3 internal link đến 30shine.com/booking hoặc trang dịch vụ | |
+| 6 | Thông tin giá, số salon, giờ mở cửa đã kiểm tra chính xác | |
+| 7 | URL slug chứa keyword (VD: `/nhuom-phu-bac-30shine`) | |
+| 8 | Điểm tự chấm (Antigravity + Gemini) ≥ 8 | |
 
-**Không giới hạn thời gian.** Viết cho đến khi đạt +50% organic traffic.
+**Không đạt đủ 8/8 → KHÔNG đăng. Sửa cho đủ rồi mới đăng.**
 
-Mỗi bài content tốt được publish = thêm ~500-2,000 sessions/tháng.
+**Bước 2: Nơi đăng**
 
-Cần 22,491 sessions thêm → cần khoảng **15-30 bài content chất lượng** được publish.
+| Loại content | Đăng ở đâu | Ai có quyền đăng | Ghi chú |
+|-------------|-----------|-----------------|---------|
+| Blog SEO (Bài 6) | 30shine.com/blog | Admin web (xin quyền từ PO) | Nhúng FAQ Schema vào HTML |
+| Local Landing Page (Bài 9) | 30shine.com/[thanh-pho] | Admin web | Cần tạo URL mới |
+| Counter-content (Bài 10) | 30shine.com/blog + Google Business | Admin web + Admin GBP | Post lên cả Google Business Profile |
+
+**Nếu chưa có quyền admin web:** Nộp bài cho PO kèm:
+- File content (.md hoặc .doc)
+- Thư mục ảnh đã đặt tên theo alt text
+- File FAQ Schema (.json)
+- Checklist 8/8 đã tick đủ
+
+**Bước 3: Sau khi đăng — ghi nhận**
+
+```
+Gõ trong Antigravity:
+Bài "[tên bài]" đã được đăng tại URL: [link bài đã live]
+Ngày đăng: [ngày]
+Keyword mục tiêu: [keyword]
+Lưu thông tin này vào file bai-tap/published-tracker.md
+```
+
+---
+
+### Tái research — Chấm điểm THẬT (sau 7-14 ngày)
+
+> Đây là bước quan trọng nhất. Content chỉ có giá trị khi nó THẬT SỰ rank và mang traffic.
+
+**Sau 7 ngày kể từ ngày đăng, gõ trong Antigravity:**
+
+```
+Tái audit cho bài đã đăng:
+
+Bài: [tên bài]
+URL: [link bài đã live]  
+Keyword: [keyword mục tiêu]
+Ngày đăng: [ngày]
+
+Kiểm tra:
+1. Search keyword trên Google (incognito) — bài đã xuất hiện chưa? Vị trí nào?
+2. Search trên Gemini/ChatGPT — 30Shine có được nhắc đến cho keyword này chưa?
+3. So sánh với kết quả audit ban đầu (đọc file bai-tap/01-google-audit.md)
+4. Keyword này đã cải thiện bao nhiêu bậc?
+```
+
+**Mở Gemini, kiểm chứng:**
+```
+Tôi vừa đăng bài SEO cho 30Shine nhắm keyword "[keyword]" 
+tại URL [link]. Bài đăng ngày [ngày].
+Bạn có thấy bài này khi tôi hỏi về [keyword] không?
+Nếu không, theo bạn cần cải thiện gì?
+```
+
+**Chấm điểm THẬT:**
+
+| Tiêu chí | Điểm | Cách đo |
+|----------|------|---------|
+| **Google Index** | 0 hoặc 1 | Bài đã được Google index chưa? (search `site:30shine.com/[url-bai]`) |
+| **Vị trí rank** | 1-10 | Keyword mục tiêu rank ở trang mấy? (#1-10 = tốt, #11-30 = trung bình, >30 = yếu) |
+| **AI Mention** | 0 hoặc 1 | Hỏi Gemini/ChatGPT → 30Shine có được nhắc cho keyword này không? |
+| **Cải thiện so với baseline** | +/- bậc | So vị trí hiện tại với vị trí trong file 01-google-audit.md |
+| **Traffic thật (nếu có GA4)** | Số sessions | Organic sessions đến URL này trong 7 ngày |
+
+**Lưu kết quả:**
+```
+Lưu vào file bai-tap/recheck-[keyword]-[ngay].md
+```
+
+**Nếu bài chưa rank sau 14 ngày:**
+```
+Gõ trong Antigravity:
+Bài về "[keyword]" đăng ngày [ngày] vẫn chưa rank sau 14 ngày.
+Phân tích nguyên nhân và đề xuất:
+1. Bài có vấn đề gì về on-page SEO?
+2. Cần thêm internal link từ trang nào?
+3. Cần tạo thêm bài hỗ trợ (supporting content) nào?
+4. Đề xuất cải thiện cụ thể — tôi sẽ sửa ngay.
+```
+
+---
+
+## Nộp bài
+
+Sau 3 ngày, bạn sẽ có **10 file + ảnh** trong thư mục `bai-tap/`:
+
+```
+bai-tap/
+├── 01-google-audit.md          ← Ngày 1
+├── 02-ai-audit.md              ← Ngày 1
+├── 03-doi-thu.md               ← Ngày 1
+├── 04-cham-diem-ngay-1.md      ← Ngày 1
+├── 05-keyword-cluster.md       ← Ngày 2
+├── 06-blog-seo.md              ← Ngày 2
+├── 07-faq-schema.md            ← Ngày 2
+├── 08-cham-diem-ngay-2.md      ← Ngày 2
+├── 09-local-landing-page.md    ← Ngày 3
+├── 10-counter-content.md       ← Ngày 3
+├── images/                     ← Ảnh thật cho bài 06, 09, 10
+│   ├── 06-blog/                ← Ảnh cho blog SEO
+│   ├── 09-local/               ← Ảnh chi nhánh, nội thất
+│   └── 10-counter/             ← Ảnh before/after, review
+└── published-tracker.md        ← Theo dõi bài đã đăng
+```
+
+**Cách nộp:** Gửi toàn bộ cho PO qua email/Zalo/Google Drive.
+
+**Tiêu chí đạt giai đoạn 1 (sau 3 ngày):**
+- [ ] Đủ 10 file bài tập
+- [ ] Bài 06, 09, 10 có điểm tự chấm ≥ 8 (cả Antigravity + Gemini)
+- [ ] Bài 06, 09, 10 có đủ ảnh thật theo checklist
+- [ ] FAQ Schema đúng chuẩn
+
+**Tiêu chí đạt giai đoạn 2 (sau khi đăng + 14 ngày):**
+- [ ] Ít nhất 1 bài đã được đăng lên 30shine.com
+- [ ] Có file recheck chứng minh đã tái audit
+- [ ] Keyword mục tiêu đã cải thiện ít nhất 1 bậc
+
+---
+
+## Sau 3 ngày: Loop liên tục
+
+Bạn đã thành thạo cơ bản. Từ giờ mỗi tuần lặp lại chu trình:
+
+```
+┌─────────────────────────────────────────────┐
+│                                             │
+│  Nhận keyword  →  Viết bài  →  Chuẩn bị    │
+│  từ PO            bằng AI      ảnh thật     │
+│                                             │
+│       ↑                            ↓        │
+│                                             │
+│  Tái research  ←  Chờ 7-14   ←  Đăng bài   │
+│  chấm điểm       ngày index     lên web     │
+│  THẬT                                       │
+│                                             │
+│       ↓                                     │
+│                                             │
+│  Chưa đạt? → Sửa bài / viết thêm          │
+│  Đạt rồi?  → Nhận keyword mới              │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+**Mỗi tuần:**
+1. **Nhận 2-3 keyword mới từ PO** (từ data niche research)
+2. **Viết bài** bằng Antigravity (`/seo-writer`) + chuẩn bị ảnh thật
+3. **Tự chấm ≥ 8** rồi nộp PO duyệt
+4. **PO duyệt → đăng** lên 30shine.com
+5. **Sau 7-14 ngày → tái research** kiểm tra rank + AI mention
+6. **Bài chưa rank → phân tích + sửa.** Bài đã rank → nhận keyword tiếp
+
+**Chấm điểm THẬT mỗi 2 tuần:**
+
+```
+Gõ trong Antigravity:
+Chạy lại /seo-audit và so sánh với kết quả lần đầu (file 01-google-audit.md).
+Keyword nào đã cải thiện? Keyword nào vẫn chưa?
+Organic Sessions trên GA4 hiện tại bao nhiêu? So với baseline 44,982?
+```
+
+**Khi nào dừng?**
+```
+Baseline:  44,982 sessions/tháng
+Mục tiêu:  67,473 sessions/tháng (+50%)
+```
+
+Đạt 67,473 và duy trì 2 tháng liên tiếp → khoá học kết thúc.
+Chưa đạt → tiếp tục viết + đăng + tái research.
 
 ---
 
