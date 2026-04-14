@@ -30,56 +30,36 @@ Và khi họ hỏi **ChatGPT, Gemini**: *"Salon nào tốt nhất?"* → 30Shine
 
 ## Bước 0: Cài đặt (15 phút — làm 1 lần duy nhất)
 
-### Bước 0.1 — Mở Antigravity
+### Bước 0.1 — Cài Antigravity
 
-Antigravity là AI thông minh chạy trên máy bạn. Nó sẽ là "đồng đội" giúp bạn research, viết content, và chấm bài.
-
-**Cách đơn giản nhất — dùng trên web:**
-1. Vào **https://claude.ai/code**
-2. Đăng nhập (hoặc tạo tài khoản miễn phí)
-3. Xong. Bạn đã có Antigravity.
-
-**Hoặc cài trên máy (nếu thích dùng Terminal):**
+1. Mở **Terminal** (Mac: tìm "Terminal" trong Spotlight)
+2. Chạy:
 ```bash
 npm install -g @anthropic-ai/claude-code
-claude
 ```
+3. Chưa có npm? Tải Node.js trước tại https://nodejs.org → chọn bản LTS → cài → quay lại bước 2
 
-### Bước 0.2 — Kết nối Gemini
+### Bước 0.2 — Tải khoá học + khởi động
 
-Gemini sẽ là "giáo viên thứ hai" — bạn dùng để kiểm chứng và chấm bài.
-
-1. Vào **https://gemini.google.com**
-2. Đăng nhập bằng Google Account
-3. Lưu bookmark — bạn sẽ dùng mỗi ngày
-
-### Bước 0.3 — Tải khoá học vào Antigravity
-
-Đây là bước quan trọng nhất. Khi bạn tải khoá học này vào, Antigravity sẽ tự động hiểu về 30Shine, biết cách viết SEO, biết cách chấm điểm.
-
-**Trên web (claude.ai/code):**
-1. Paste link này vào chat: `https://github.com/oanh1831992-dev/30shine-seo-course`
-2. Nói: *"Clone repo này về và mở nó làm project"*
-3. Antigravity sẽ tự tải về và cấu hình
-
-**Trên Terminal:**
 ```bash
 git clone https://github.com/oanh1831992-dev/30shine-seo-course.git
 cd 30shine-seo-course
 claude
 ```
 
-### Bước 0.4 — Kiểm tra mọi thứ hoạt động
+Đăng nhập theo hướng dẫn trên màn hình. Xong là Antigravity đã sẵn sàng — nó tự đọc khoá học, tự hiểu về 30Shine, tự biết cách viết SEO và chấm điểm.
 
-Sau khi mở Antigravity trong thư mục khoá học, gõ thử:
-
+**Kiểm tra nhanh — gõ:**
 ```
-Giới thiệu về bạn đi. Bạn biết gì về 30Shine và khoá học SEO này?
+Bạn biết gì về 30Shine và khoá học SEO này?
 ```
+Nếu Antigravity trả lời đúng (nhắc 30Shine, 150 salon, mục tiêu +50%) → **sẵn sàng.**
 
-Nếu Antigravity trả lời đúng (nhắc đến 30Shine, 150 salon, mục tiêu +50% organic traffic) → **bạn đã sẵn sàng.**
+### Bước 0.3 — Mở Gemini
 
-Nếu không → kiểm tra lại bước 0.3.
+1. Vào **https://gemini.google.com**
+2. Đăng nhập bằng Google Account
+3. Lưu bookmark — bạn sẽ dùng mỗi ngày để kiểm chứng và chấm bài
 
 ---
 
