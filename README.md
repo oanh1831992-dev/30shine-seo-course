@@ -1,119 +1,149 @@
-# KHOA HOC THUC CHIEN: SEO + GEO CHO 30SHINE
+# Khoá Học Thực Chiến: SEO + GEO cho 30Shine
 
-> **"Khong chi rank tren Google — ma con la cau tra loi cua AI"**
-
----
-
-## BAN DANG O DAY VI...
-
-Website 30Shine co **44,982 sessions/thang tu Organic Search** (23% tong traffic) — nhung gan nhu TOAN BO do ve trang chu `/`.
-
-Khi nguoi ta search **"tiem cat toc nam Ha Noi dep"**, **"nhuom phu bac o dau tot"**, **"goi dau duong sinh ASMR"** — 30Shine **KHONG xuat hien**.
-
-Doi thu dang chiem:
-- **KingKong Barber** — rank #1 cho "tiem cat toc Ha Noi dep nhat 2026"
-- **4RAU Barber** — moi bai blog chiem 1 keyword cluster
-- **Toplist.vn** — list "salon nhuom phu bac chat luong" ma 30Shine **KHONG CO**
-
-Va khi nguoi dung hoi **ChatGPT, Gemini, Perplexity**: _"Salon cat toc nam nao tot nhat o Ha Noi?"_ — 30Shine co the **KHONG DUOC NHAC DEN**.
-
-**Khoa hoc nay se thay doi dieu do.** Bang chinh ban tay cua ban.
+> **"Không chỉ rank trên Google — mà còn là câu trả lời của AI"**
 
 ---
 
-## CACH HOC
+## Bạn đang ở đây vì...
+
+Website 30Shine có **44,982 lượt truy cập/tháng từ Google** — nhưng gần như toàn bộ đổ về trang chủ.
+
+Khi người ta search **"tiệm cắt tóc nam Hà Nội đẹp"** hoặc **"nhuộm phủ bạc ở đâu tốt"** → 30Shine **KHÔNG xuất hiện**.
+
+Và khi họ hỏi **ChatGPT, Gemini**: *"Salon nào tốt nhất?"* → 30Shine **có thể không được nhắc đến**.
+
+**Khoá học này sẽ thay đổi điều đó. Bằng chính bàn tay của bạn.**
+
+---
+
+## Cách học
 
 | | |
 |---|---|
-| **Triet ly** | Hoc 10% — Lam 90%. Moi bai tap = 1 output that cho 30Shine |
-| **Cong cu** | Antigravity (Claude Code) + Gemini + Google Search Console |
-| **Thoi gian** | Moi sprint = **3 ngay lam bai**. Ngan de buoc phai tap trung |
-| **Nop bai** | Google Forms (link trong moi sprint) |
-| **Cham diem** | AI Gemini verify + PO review |
-| **Muc tieu** | **Tang 50% Organic Traffic** — chua dat thi tiep tuc sprint moi |
+| **Triết lý** | Làm 90% — Lý thuyết 10%. Mọi bài tập = output thật |
+| **Công cụ** | Antigravity (Claude Code) + Gemini |
+| **Thời gian** | **3 ngày = 10 bài tập** thành thạo cơ bản |
+| **Sau đó** | Làm bài liên tục cho đến khi Organic Traffic tăng 50% |
+| **Chấm điểm** | AI tự chấm theo rubric chuẩn |
 
 ---
 
-## BUOC 0: CAI DAT CONG CU (Lam 1 lan duy nhat)
+## Bước 0: Cài đặt (15 phút — làm 1 lần duy nhất)
 
-### 0.1 Cai Antigravity (Claude Code)
+### Bước 0.1 — Mở Antigravity
 
-Antigravity = Claude Code chay trong terminal. No giup ban viet content, research, va kiem tra SEO **nhanh gap 10 lan**.
+Antigravity là AI thông minh chạy trên máy bạn. Nó sẽ là "đồng đội" giúp bạn research, viết content, và chấm bài.
 
-**Cach cai:**
-1. Mo Terminal (Mac) hoac Command Prompt (Windows)
-2. Chay lenh:
+**Cách đơn giản nhất — dùng trên web:**
+1. Vào **https://claude.ai/code**
+2. Đăng nhập (hoặc tạo tài khoản miễn phí)
+3. Xong. Bạn đã có Antigravity.
+
+**Hoặc cài trên máy (nếu thích dùng Terminal):**
 ```bash
 npm install -g @anthropic-ai/claude-code
-```
-3. Dang nhap:
-```bash
 claude
 ```
-4. Lam theo huong dan tren man hinh de ket noi tai khoan
 
-> **Chua co Node.js?** Tai tai: https://nodejs.org — chon ban LTS, cai dat, roi quay lai buoc tren.
+### Bước 0.2 — Kết nối Gemini
 
-### 0.2 Ket noi Gemini
+Gemini sẽ là "giáo viên thứ hai" — bạn dùng để kiểm chứng và chấm bài.
 
-Gemini se la "giao vien cham bai" cua ban va la cong cu research.
+1. Vào **https://gemini.google.com**
+2. Đăng nhập bằng Google Account
+3. Lưu bookmark — bạn sẽ dùng mỗi ngày
 
-1. Vao https://gemini.google.com
-2. Dang nhap bang Google Account
-3. Luu bookmark — ban se dung Gemini **MOI NGAY**
+### Bước 0.3 — Tải khoá học vào Antigravity
 
-### 0.3 Cai Google Search Console (neu chua co)
+Đây là bước quan trọng nhất. Khi bạn tải khoá học này vào, Antigravity sẽ tự động hiểu về 30Shine, biết cách viết SEO, biết cách chấm điểm.
 
-Day la cong cu do luong SEO chinh thuc cua Google.
+**Trên web (claude.ai/code):**
+1. Paste link này vào chat: `https://github.com/oanh1831992-dev/30shine-seo-course`
+2. Nói: *"Clone repo này về và mở nó làm project"*
+3. Antigravity sẽ tự tải về và cấu hình
 
-1. Vao https://search.google.com/search-console
-2. Them website 30shine.com (can quyen admin)
-3. Cho 24-48h de Google thu thap du lieu
-
----
-
-## CAC SPRINT
-
-| Sprint | Ten | Thoi gian | Link |
-|--------|-----|-----------|------|
-| 01 | **Audit: 30Shine dang o dau?** | 3 ngay | [Bat dau Sprint 01 →](sprint-01/README.md) |
-| 02 | **Viet content SEO + GEO that** | 3 ngay | [Bat dau Sprint 02 →](sprint-02/README.md) |
-| 03 | **Local SEO + Counter negative** | 3 ngay | [Bat dau Sprint 03 →](sprint-03/README.md) |
-| Loop | **Sprint tiep theo (tu dong tao)** | 3 ngay | [Xem Sprint Loop →](sprint-loop/README.md) |
-
-> **Luu y:** Khoa hoc KHONG dung sau 3 sprint. No tiep tuc tao bai tap moi cho den khi Organic Traffic tang 50%. Moi sprint moi se dua tren ket qua sprint truoc + data research moi nhat.
-
----
-
-## CHAM DIEM NHU THE NAO?
-
-Moi bai tap duoc cham **3 lop:**
-
-| Lop | Ai cham | Tieu chi |
-|-----|---------|----------|
-| **Lop 1: Tu kiem** | Ban tu chay checklist | Checklist co/khong |
-| **Lop 2: AI verify** | Copy output → paste vao Gemini kem prompt cham diem | Gemini cho diem 1-10 + nhan xet |
-| **Lop 3: PO review** | PO doc ket qua + so voi data that | Thuc te co cai thien khong? |
-
-**Thang diem:**
-- **9-10:** Xuat sac — content san sang publish
-- **7-8:** Tot — can chinh sua nho
-- **5-6:** Trung binh — lam lai 1 phan
-- **Duoi 5:** Chua dat — lam lai toan bo
-
----
-
-## MUC TIEU CUOI CUNG
-
-```
-Organic Search Sessions hien tai:  44,982/thang
-Muc tieu:                          67,473/thang (+50%)
+**Trên Terminal:**
+```bash
+git clone https://github.com/oanh1831992-dev/30shine-seo-course.git
+cd 30shine-seo-course
+claude
 ```
 
-**Khi nao dat 67,473 sessions/thang tu Organic Search tren GA4, khoa hoc ket thuc.**
+### Bước 0.4 — Kiểm tra mọi thứ hoạt động
 
-Cho den luc do: tiep tuc sprint. Moi sprint = them content that, them keyword rank, them AI mention.
+Sau khi mở Antigravity trong thư mục khoá học, gõ thử:
+
+```
+Giới thiệu về bạn đi. Bạn biết gì về 30Shine và khoá học SEO này?
+```
+
+Nếu Antigravity trả lời đúng (nhắc đến 30Shine, 150 salon, mục tiêu +50% organic traffic) → **bạn đã sẵn sàng.**
+
+Nếu không → kiểm tra lại bước 0.3.
 
 ---
 
-_Khoa hoc nay duoc thiet ke dua tren data that tu GA4 30Shine, Google Trends, competitor analysis, va customer journey research. Moi bai tap su dung data that — khong phai ly thuyet suong._
+## Bắt đầu: 10 Bài Tập Trong 3 Ngày
+
+> Mỗi bài tập bạn **gõ trực tiếp trong Antigravity**. Nó sẽ hướng dẫn bạn từng bước.
+
+| Ngày | Bài | Tên bài tập | Cách làm trong Antigravity |
+|------|-----|-------------|---------------------------|
+| **1** | 1 | Audit Google Search | Gõ: `/seo-audit` |
+| **1** | 2 | Audit AI Search | Gõ: *"Hỏi 10 câu về salon tóc nam và kiểm tra 30Shine có được nhắc không"* |
+| **1** | 3 | Phân tích đối thủ | Gõ: *"Phân tích SEO của KingKong Barber và 4RAU so với 30Shine"* |
+| **1** | 4 | Chấm bài ngày 1 | Gõ: `/seo-grader` rồi paste kết quả 3 bài trên |
+| **2** | 5 | Keyword cluster | Gõ: *"Tạo keyword cluster cho 'nhuộm phủ bạc' với 20 long-tail keywords"* |
+| **2** | 6 | Viết blog SEO | Gõ: `/seo-writer` → chọn keyword → viết bài |
+| **2** | 7 | Tạo FAQ Schema | Gõ: *"Tạo FAQ Schema JSON-LD từ bài blog vừa viết"* |
+| **2** | 8 | Chấm bài ngày 2 | Gõ: `/seo-grader` rồi paste bài blog + FAQ schema |
+| **3** | 9 | Viết local landing page | Gõ: `/seo-writer` → chọn "Landing page local" → Hà Nội |
+| **3** | 10 | Viết counter-content | Gõ: `/seo-writer` → chọn "Counter-content" → keyword "30shine review" |
+
+**Chi tiết từng bài tập:** [Xem tại đây →](bai-tap/README.md)
+
+---
+
+## Sau 3 ngày: Loop liên tục
+
+Sau khi hoàn thành 10 bài tập cơ bản, bạn chuyển sang chế độ **loop liên tục**:
+
+- Mỗi tuần: nhận keyword mới từ PO (dựa trên data research mới nhất)
+- Viết 2-3 bài content/tuần bằng Antigravity
+- Tự chấm bằng `/seo-grader`
+- Track tiến độ trên GA4
+
+**Khi nào dừng?**
+```
+Organic Sessions hiện tại:  44,982/tháng
+Mục tiêu:                   67,473/tháng (+50%)
+```
+
+Khi đạt 67,473 sessions/tháng và duy trì 2 tháng liên tiếp → khoá học kết thúc.
+
+Chưa đạt → tiếp tục viết content. Mỗi bài content tốt = thêm 500-2,000 sessions/tháng.
+
+---
+
+## Mẹo dùng Antigravity hiệu quả
+
+**Mới bắt đầu? Gõ đúng những câu này:**
+
+| Bạn muốn | Gõ trong Antigravity |
+|-----------|---------------------|
+| Audit SEO | `/seo-audit` |
+| Viết content | `/seo-writer` |
+| Chấm điểm bài | `/seo-grader` |
+| Research keyword | *"Phân tích keyword [từ khoá] cho 30Shine"* |
+| Hỏi bất kỳ | *"Giải thích [khái niệm SEO] đơn giản cho người mới"* |
+| Kiểm tra đối thủ | *"Ai đang rank #1 cho keyword [từ khoá]?"* |
+
+**Mẹo quan trọng:**
+1. **Càng cụ thể càng tốt.** "Viết blog SEO về nhuộm phủ bạc cho 30Shine, target nam 30-40 Hà Nội" tốt hơn "Viết blog"
+2. **Kiểm chứng chéo với Gemini.** Paste output của Antigravity vào Gemini, hỏi "Đánh giá bài này có đúng không?"
+3. **Không copy paste thẳng.** Đọc lại, sửa cho tự nhiên, thêm trải nghiệm thật
+4. **Lưu mọi output.** Mỗi bài tập xong → lưu file → đó là portfolio của bạn
+
+---
+
+_Khoá học này được thiết kế dựa trên data thật từ GA4 30Shine, Google Trends, và competitor analysis._
