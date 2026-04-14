@@ -83,4 +83,4 @@ Chưa đo. Bài 2 sẽ là lần đo đầu tiên:
 | Sau 1-3 tháng | Ranking bắt đầu hình thành, có thể thấy traffic nhỏ |
 | Sau 3-6 tháng | Ranking ổn định, đây là lúc đánh giá hiệu quả thật |
 
-> **Lưu ý:** Kiểm tra index sau 7 ngày. Đánh giá ranking thật sau 3 tháng. Đừng kỳ vọng rank top 10 sau 2 tuần — SEO là cuộc chơi dài hạn.
+> **Lưu ý:** Kiểm tra index sau 7 ngày. Đánh giá ranking thật sau 3 tháng. SEO là cuộc chơi dài hạn.

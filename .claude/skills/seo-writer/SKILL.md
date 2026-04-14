@@ -77,6 +77,7 @@ Tạo TẤT CẢ structured data phù hợp với loại content:
 - App đặt lịch: lưu lịch sử kiểu tóc
 - Cam kết hoàn tiền nếu không hài lòng
 - Giờ mở cửa: 8:00-20:30 hàng ngày
+- CPA benchmark: STAR ≤30k, lấy ráy tai CPA 22k
 
 ### Counter-content (khi viết bài về "30shine review")
 - PHẢI trung thực — nhận cả điểm cần cải thiện

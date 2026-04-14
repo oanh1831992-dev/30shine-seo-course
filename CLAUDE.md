@@ -30,7 +30,7 @@
 
 ## Khi phân tích SEO
 - North star = Organic Sessions trên GA4
-- So sánh với baseline 44,982 sessions/tháng
+- Baseline: 44,982 sessions/tháng, target 67,473 (+50%)
 - Track cả AI Mention Rate (30Shine có được AI nhắc đến không?)
 - Google Search Console: impressions, clicks, CTR, average position
 - Timeline thực tế: index sau 1-7 ngày, ranking ổn định sau 3-6 tháng
